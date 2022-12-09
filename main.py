@@ -254,7 +254,7 @@ if __name__ == "__main__":
 
     print("Starting KMeans...")
     clusters = 5
-    iterations = 1
+    iterations = 5
     kmeans_image = np.zeros(image.shape, dtype=np.uint8)
     initial_centroids = np.array([
         Point(0, 0, 0),
