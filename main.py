@@ -374,9 +374,9 @@ if __name__ == "__main__":
 
     cv2.imwrite("output.jpg", image)
 
-    # cv2.imshow("Original", image)
-    # cv2.imshow("KMeans", kmeans_image)
-    # cv2.imshow("binarized", binarized)
-    # cv2.imshow("Tagged", tagged)
+    cv2.imshow("Original", image)
+    cv2.imshow("KMeans", kmeans_image)
+    cv2.imshow("binarized", binarized)
+    cv2.imshow("Tagged", tagged)
 
     cv2.waitKey(0)
